@@ -1,13 +1,13 @@
-const toggle = document.getElementById('darkModeToggle');
-toggle.addEventListener('change', () => {
-  if (toggle.checked) {
-    document.documentElement.classList.add('dark');
-    localStorage.setItem('theme', 'dark');
-  } else {
-    document.documentElement.classList.remove('dark');
-    localStorage.setItem('theme', 'light');
-  }
-});
+// const toggle = document.getElementById('darkModeToggle');
+// toggle.addEventListener('change', () => {
+//   if (toggle.checked) {
+//     document.documentElement.classList.add('dark');
+//     localStorage.setItem('theme', 'dark');
+//   } else {
+//     document.documentElement.classList.remove('dark');
+//     localStorage.setItem('theme', 'light');
+//   }
+// });
 
 // পেজ লোডের সময় সেট করা
 if (localStorage.getItem('theme') === 'dark') {
